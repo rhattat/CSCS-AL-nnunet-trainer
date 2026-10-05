@@ -2,9 +2,10 @@
 
 Custom nnU-Net v2 trainer used for the CSCS-AL experiments: a Ranger22
 optimizer/scheduler and a provenance-weighted loss for training on
-partially-corrected volumes. See the companion `CSCS_AL_code_to_publish`
-repository for the acquisition and correction logic that produces the
-provenance weight maps this trainer consumes.
+partially-corrected volumes. See the companion
+[CSCS-AL-partial](https://github.com/rhattat/CSCS-AL-partial) repository for
+the acquisition and correction logic that produces the provenance weight
+maps this trainer consumes.
 
 ## What's here
 
